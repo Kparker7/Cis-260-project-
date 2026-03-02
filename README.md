@@ -1,76 +1,79 @@
-# Congratulations on Your README!
+# User Authentication System with Role-Based Access Control
 
-If you’re reading this, congratulations — you’ve successfully opened a **README file**.  
-That may seem simple, but it’s actually an important first step in learning how modern technical projects are documented and shared.
+## Overview
+This capstone project demonstrates the design and development of a simple but effective **user authentication system** that reflects real-world software practices.  
 
-This file is written in **Markdown**, a lightweight formatting language used across the tech industry.
+The system allows users to securely **register** and **log in**, with access to features determined by their assigned role (e.g., **admin** or **standard user**).  
 
----
-
-## What Is a README?
-
-A README is usually the **first thing someone sees** when they open a project.  
-It answers key questions like:
-
-- What is this project?
-- How do I use it?
-- Why does it exist?
-- Who is it for?
-
-Well-written READMEs make projects easier to understand, use, and maintain.
+It applies core computer science and information systems concepts, including **security principles**, authentication, and access control, making this project both practical and relevant.
 
 ---
 
-## What Is Markdown?
+## Problem Statement
+Many applications require controlled access to protect data and system functionality. Without authentication and access control, systems are vulnerable to **unauthorized use**.  
 
-Markdown is a plain-text language that allows you to add formatting such as:
-
-- Headings
-- Lists
-- Links
-- Code blocks
-- Emphasis (bold / italics)
-
-Without using complex tools or word processors.
-
-Markdown files typically end in `.md`, like this one: `README.md`.
+This project addresses that problem by implementing a structured login system that enforces user permissions and secures sensitive functionality.
 
 ---
 
-## Why Markdown Matters
+## Project Objectives
+The main objectives of this project are to:
 
-Markdown is used **everywhere**, including:
-
-- GitHub and GitLab repositories
-- Technical documentation
-- Security reports
-- Open-source projects
-- Blogs and knowledge bases
-
-If you work in **IT, cybersecurity, software development, or data**, you *will* encounter Markdown.
-
-Learning it now gives you a real, transferable skill.
+- Develop a **secure login and logout system**
+- Store user information using **password hashing**
+- Implement **role-based access control**
+- Separate **admin** and **standard user** functionality
+- Demonstrate **organized and secure system design**
 
 ---
 
-## What You Should Practice
+## Project Features
+The project includes:
 
-As a student, you should practice:
+- **Login and registration interfaces**
+- **Backend authentication logic** with secure password handling
+- **Role-based dashboards** for admin and standard users
+- **User database** to manage accounts and permissions
 
-- Editing this file
-- Adding your own sections
-- Creating lists and headings
-- Writing clear explanations in plain language
-
-Try modifying this README to describe **your project**, **your lab**, or **your assignment**.
+> Note: Advanced features like payment systems or large-scale deployment are **out of scope** to keep the project focused and achievable.
 
 ---
 
-## Final Thought
+## Tools and Technologies
+- **Programming Language:** Python  
+- **Frontend:** Terminal-based interface  
+- **Backend:** Python  
+- **Database:** MySQL  
+- **Editor:** VS Code  
+- **Security Practices:** Password hashing and session control
 
-Markdown isn’t about making things “look nice” — it’s about **communicating clearly**.
+---
 
-If someone else can understand your work just by reading your README,  
-you’re already thinking like a professional.
+## Expected Deliverables
+By the end of the capstone, the project will include:
 
-Good luck, and welcome to Markdown!
+- A **functional authentication system**
+- **User database** with role assignments
+- **Organized source code**
+- **Screenshots** demonstrating functionality
+- A **final report** or presentation
+
+---
+
+## Conclusion
+This project showcases the practical application of computer science and information systems skills through the development of a **secure and realistic user authentication system**.  
+
+It is a **portfolio-ready example** of applied knowledge in authentication, access control, and secure system design.
+
+---
+
+## Getting Started
+1. Clone the repository  
+2. Set up the **MySQL database** using the provided schema  
+3. Run the **Python backend** in your terminal  
+4. Use the **login/registration interface** to test different user roles  
+
+---
+
+## Author
+**Kalyx Parker** – Capstone Project Developer
