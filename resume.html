@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My Resume</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+                text-align: center; 
+            }
+
+            header {
+                background-color: #333;
+                color: white;
+                padding: 20px;
+            }
+
+            main {
+                padding: 40px;
+            }
+
+            button {
+                padding: 10px 20px;
+                background-color: #0077cc;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+                
+            button:hover {
+                background-color: #f4f4f4;
+            }
+
+            footer {
+                margin-top: 40px;
+                padding: 20px;
+                background-color: #333;
+                color: white;
+            }
+
+            ul {
+                text-align: left;
+                display: inline-block;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Kalyx Parker - Resume</h1>
+        </header>
+
+        <main>
+            <h2>Contact</h2>
+            <p>Email: kparker70@student.ccc.edu</p>
+
+            <h2>Major</h2>
+            <p>Associate in Cyber Security</p>
+
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>MySQL</li>
+                <li>Cybersecurity Principles</li>
+                <li>Authentication Systems</li>
+                <li>Role-Based Access Control</li>
+            </ul>
+
+            <h2>Projects</h2>
+            <p>User Authentication System with Role-Based Access Control</p>
+
+            <button onclick="showMessage()">Download Resume (PDF)</button>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Kalyx Parker</p>
+        </footer>
+
+        <script>
+            function showMessage() {
+                alert("You can download my full resume as a PDF from this button.");
+            }
+        </script>
+    </body>
+</html>
