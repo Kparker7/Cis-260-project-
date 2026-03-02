@@ -3,7 +3,7 @@
 ## Overview
 This capstone project demonstrates the design and development of a simple but effective **user authentication system** that reflects real-world software practices.  
 
-The system allows users to securely **register** and **log in**, with access to features determined by their assigned role (e.g., **admin** or **standard user**).  
+The system allows users to securely **register** and **log in**, with access to features determined by their assigned role (**admin** or **standard user**).  
 
 It applies core computer science and information systems concepts, including **security principles**, authentication, and access control, making this project both practical and relevant.
 
