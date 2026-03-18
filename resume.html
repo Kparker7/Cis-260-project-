@@ -1,91 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>My Resume</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <title>My Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 0;
-                background-color: #f4f4f4;
-                text-align: center; 
-            }
+    <link rel="stylesheet" href="style.css">
+</head>
 
-            header {
-                background-color: #333;
-                color: white;
-                padding: 20px;
-            }
+<body>
 
-            main {
-                padding: 40px;
-            }
+<header>
+    <nav>
+    <a href="index.html">Home</a>
+    <a href="proposal.html">Proposal</a>
+    <a href="resume.html">Resume</a>
+    <a href="screenshots.html">Screenshots</a>
+</nav>
+    <h1>Kalyx Parker - Resume</h1>
+</header>
 
-            button {
-                padding: 10px 20px;
-                background-color: #0077cc;
-                color: white;
-                border: none;
-                border-radius: 5px;
-                cursor: pointer;
-            }
-                
-            button:hover {
-                background-color: #f4f4f4;
-            }
+<main>
+    <h2>Contact</h2>
+    <p>Email: kparker70@student.ccc.edu</p>
 
-            footer {
-                margin-top: 40px;
-                padding: 20px;
-                background-color: #333;
-                color: white;
-            }
+    <h2>Major</h2>
+    <p>Associate in Cyber Security</p>
 
-            ul {
-                text-align: left;
-                display: inline-block;
-            }
-        </style>
-    </head>
+    <h2>Skills</h2>
+    <ul>
+        <li>Python</li>
+        <li>MySQL</li>
+        <li>Cybersecurity Principles</li>
+        <li>Authentication Systems</li>
+        <li>Role-Based Access Control</li>
+    </ul>
 
-    <body>
-        <header>
-            <h1>Kalyx Parker - Resume</h1>
-        </header>
+    <h2>Projects</h2>
+    <p>User Authentication System with Role-Based Access Control</p>
 
-        <main>
-            <h2>Contact</h2>
-            <p>Email: kparker70@student.ccc.edu</p>
+    <button onclick="showMessage()">✨ Download Resume (PDF)</button>
+</main>
 
-            <h2>Major</h2>
-            <p>Associate in Cyber Security</p>
+<footer>
+    <p>&copy; 2026 Kalyx Parker</p>
+</footer>
 
-            <h2>Skills</h2>
-            <ul>
-                <li>Python</li>
-                <li>MySQL</li>
-                <li>Cybersecurity Principles</li>
-                <li>Authentication Systems</li>
-                <li>Role-Based Access Control</li>
-            </ul>
+<script>
+function showMessage() {
+    alert("You can download my full resume as a PDF from this button.");
+}
+</script>
 
-            <h2>Projects</h2>
-            <p>User Authentication System with Role-Based Access Control</p>
-
-            <button onclick="showMessage()">Download Resume (PDF)</button>
-        </main>
-
-        <footer>
-            <p>&copy; 2026 Kalyx Parker</p>
-        </footer>
-
-        <script>
-            function showMessage() {
-                alert("You can download my full resume as a PDF from this button.");
-            }
-        </script>
-    </body>
+</body>
 </html>
