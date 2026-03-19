@@ -75,5 +75,18 @@ It is a **portfolio-ready example** of applied knowledge in authentication, acce
 
 ---
 
+## Progress Updates
+
+### Update 1
+- Created project structure
+- Wrote initial README
+- Completed capstone proposal
+
+### Update 2
+- Added content to index.html
+- Created style.css with basic styling, flowers, color, sparkles etc.
+- Improved layout and structure
+- Added screenshots
+
 ## Author
 **Kalyx Parker** – Capstone Project Developer

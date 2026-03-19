@@ -19,7 +19,7 @@ body::before {
     width: 100%;
     font-size: 20px;
     opacity: 0.4;
-    animation: sparkleMove 10s linear infinite;
+    animation: sparkleMove 9s linear infinite;
 }
 
 @keyframes sparkleMove {
