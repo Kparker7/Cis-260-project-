@@ -88,5 +88,12 @@ It is a **portfolio-ready example** of applied knowledge in authentication, acce
 - Improved layout and structure
 - Added screenshots
 
+### Update 3
+-  Added profile picture and contact info to resume  
+- Improved skills and project descriptions  
+- Created “Learn More” button for proposal page  
+- Started connecting HTML pages with proper links  
+- Cleaned up layout and styling 
+
 ## Author
 **Kalyx Parker** – Capstone Project Developer
