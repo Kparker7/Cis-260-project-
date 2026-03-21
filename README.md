@@ -95,5 +95,12 @@ It is a **portfolio-ready example** of applied knowledge in authentication, acce
 - Started connecting HTML pages with proper links  
 - Cleaned up layout and styling 
 
+### Update 4
+- Made “Learn More” button lead to a new page with project image  
+- Completed resume page with download button for jpg 
+- Styled profile picture and resume page for better appearance  
+- Tested navigation links and image display  
+- Finalized content for proposal, resume, and main pages 
+
 ## Author
 **Kalyx Parker** – Capstone Project Developer
