@@ -98,8 +98,8 @@ p {
 
 /* 🌟 Profile Picture Styling */
 .profile-photo {
-    width: 200px;           /* Size of the circle */
-    height: 200px;
+    width: 100px;           /* Size of the circle */
+    height: 100px;
     border-radius: 50%;     /* Circular */
     border: 3px solid #ff66b2;
     margin: 20px auto;      /* Center it */
