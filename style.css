@@ -43,6 +43,12 @@ header h1::after {
 /* 📦 Main Content */
 main {
     padding: 40px;
+    background: rgba(255, 255, 255, 0.6);
+    margin: 30px auto;
+    border-radius: 20px;
+    width: 85%;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.2);
 }
 
 /* 🌸 Decorative flowers */
@@ -90,12 +96,13 @@ p {
     line-height: 1.6;
 }
 
-/* 💕 Optional: Card-like look */
-main {
-    background: rgba(255, 255, 255, 0.6);
-    margin: 30px auto;
-    border-radius: 20px;
-    width: 85%;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.2);
+/* 🌟 Profile Picture Styling */
+.profile-photo {
+    width: 150px;           /* Size of the photo */
+    height: 150px;
+    border-radius: 50%;     /* Circular */
+    border: 3px solid #ff66b2;
+    margin: 20px auto;      /* Center it */
+    display: block;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
